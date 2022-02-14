@@ -1,11 +1,11 @@
 @startuml
-actor client
-node app
-node cat
-node tshirt
+actor casey
+node complianceforge
+node ignyte
+node uml
 
-cat -> app
-app -> client
-client -> tshirt
+ignyte -> complianceforge
+complianceforge -> casey
+casey -> uml
 @enduml
 

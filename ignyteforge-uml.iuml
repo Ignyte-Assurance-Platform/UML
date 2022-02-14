@@ -1,10 +1,10 @@
 @startuml
 actor client
 node app
-node car
-node tshirt
+node ignyte
+node complianceforge
 
-car -> app
+ignyte -> app
 app -> client
-client -> tshirt
+client -> complianceforge
 @enduml
